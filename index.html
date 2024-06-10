@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganhe passagens</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+    <body>
+<center>
+<h1>Siga nossa página e ganhe sua viagem dos sonhos</h1>
+<h3>Clique abaixo para ganhar sua viagem!</h3>
+<hr href="https://hipercapmogi.com.br/"><img src="rj1.jpg" alt=""></a>
+<input type="button" value="Clique aqui" onclick="apertar()" class="botão">
+
+<h3>Clique abaixo para ganhar sua viagem</h3>
+    <a href="https://hipercapmogi.com.br/"><img src="rj3.jpg" alt=""></a>
+    <br><br>
+    <input type="button" value="clique aqui" onclick="apertar2()" class="botão">
+
+    <h3>Clique abaixo para ganhar sua viagem</h3>
+    <a href="/"><img src="espanha.jpg" alt=""></a>
+    <br><br>
+    <input type="button" value="clique aqui" onclick="apertar3()" class="botão">
+</center> 
+<script>
+function apertar() {
+    //alert("Apertooouuu")
+    Swal.fire({
+        title: "Parabéns",
+        text: "Você ganhou uma passagem de avião para o Rio de Janeiro",
+        icon: "success"
+      });
+    }
+
+function apertar2() {
+    //alert("Apertooouuu")
+    Swal.fire({
+        title: "Parabéns",
+        text: "Você ganhou uma passagem de avião para o Salvador",
+        icon: "success"
+      });
+    }
+
+    
+    function apertar3() {
+    Swal.fire({
+        title: "Cadastro realizado com sucesso",
+        text: "Você ganhou uma passagem de avião para Espanha",
+        icon: "success"
+      });
+    }
+    
+    </script>
+    
+</body>
+</html>
